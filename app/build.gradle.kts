@@ -7,6 +7,7 @@ android {
     namespace = "com.clean.koin"
     compileSdk = 34
 
+
     defaultConfig {
         applicationId = "com.clean.koin"
         minSdk = 24
@@ -71,7 +72,8 @@ dependencies {
     implementation("io.insert-koin:koin-android:3.2.0-beta-1")
     implementation("io.insert-koin:koin-androidx-navigation:3.2.0-beta-1")
     implementation("io.insert-koin:koin-androidx-compose:3.2.0-beta-1")
-    testImplementation("io.insert-koin:koin-test-junit4:3.2.0-beta-1")
+    testImplementation("io.insert-koin:koin-test-junit4:3.6.0-wasm-alpha2")
+    implementation(kotlin("reflect"))
     // COMPOSE MVVM
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0")
     //RETROFIT
